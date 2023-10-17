@@ -1,0 +1,337 @@
+@import url('https://fonts.cdnfonts.com/css/archivo');
+#footer{
+    margin-top: 10rem;
+}
+
+.lastline{
+    width: max-content;
+    color: #29383f;
+    background-color: #090914;
+}
+.lastpartext{
+    
+
+font-family: Archivo, sans-serif;
+font-size: 56px;
+font-style: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-weight: 700;
+
+}
+.lastpartbox{
+    margin-top: 5rem;
+    height: max-content;
+    width: 75rem;
+    background-color: #c8e5ed;
+    border-radius: 20px;
+
+}
+.numbers{
+    width: 30px;
+    background-color: #000000;
+    color: azure;
+   margin-top: 2rem;
+   font-size: larger;
+    border-radius: 500px;
+
+}
+
+.lastpartheading{
+    color:
+#000000;
+
+font-family:Archivo;
+font-size:
+36px;
+
+line-height:
+43.2px;
+vertical-align:
+baseline;
+letter-spacing:
+-0.72px;
+word-spacing:
+0px;
+margin:
+0px 0px 32px;
+padding:
+0px;
+font-weight:
+400;
+font-style:
+normal;
+font-variant:
+normal;
+font-kerning:
+auto;
+font-optical-sizing:
+auto;
+font-stretch:
+100%;
+font-variation-settings:
+normal;
+font-feature-settings:
+normal;
+text-transform:
+none;
+text-decoration:
+none solid rgb(0, 0, 0);
+text-align:
+start;
+text-indent:
+0px;
+}
+
+#slideleft{
+    animation: slideleft 2s ease 0s 1 normal forwards;
+   
+}
+
+#slideright{
+    animation: slideright 2s ease 0s 1 normal forwards;
+}
+
+#slidetop{
+    animation: slidetop 2s ease 0s 1 normal forwards;
+}
+
+@keyframes slideright {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+@keyframes slidetop {
+	0% {
+		opacity: 0;
+		transform: translateY(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+@keyframes slideleft {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100px);
+    }
+}
+
+.par{
+    font-family: Archivo, sans-serif;
+     font-size: 16px ; font-style: normal;
+      font-variant-caps: normal ;
+      font-variant-east-asian: normal ;
+      font-variant-ligatures: normal;
+       font-variant-numeric: normal;
+        font-weight: 400;
+        color: #545454;
+}
+
+.partext{
+    text-align: left;
+    display: flex;
+    /* align-content: stretch; */
+    justify-content: center;
+    flex-direction: column;
+}
+.inpartxt{
+color : #000000;
+font-family: 'Archivo', sans-serif;
+font-size:30px;
+line-height:36px;
+vertical-align:baseline;
+letter-spacing:-0.6px;
+word-spacing:0px;
+margin:0px;
+padding:0px;
+}
+
+#shortext{
+    color:#545454;
+color:RGB(84, 84, 84);
+background-color:#000000;
+background-color:RGBA(0, 0, 0, 0);
+font-family:sans-serif;
+font-size:12px;
+font-weight:400;
+line-height:16px;
+}
+
+#classroutine{
+    background-color : rgb(154,154,154);
+    height: 480px;
+    width: 700px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.experiencetext{
+    font-size:36px;
+    color:#000000;
+    font-family: 'Archivo', sans-serif;
+
+    font-weight:700;
+font-style:normal;
+font-variant:normal;
+font-kerning:auto;
+font-optical-sizing:auto;
+font-stretch:100%;
+font-variation-settings:normal;
+font-feature-settings:normal;
+text-transform:none;
+text-decoration:none solid rgb(0, 0, 0);
+text-align :start;
+text-indent:0px;
+line-height:
+43.2px;
+vertical-align:
+baseline;
+letter-spacing:
+-0.72px;
+word-spacing:
+0px;
+margin:
+0px 0px 24px;
+padding:
+0px;
+
+}
+.firsttext{
+    font-family: system-ui;
+    font-weight: 400;
+    font-size: 16px;
+    color: #45b8ea;
+
+}
+.description{
+   
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    margin:
+0px 0px 44px;
+font-family: 'Archivo', sans-serif;
+color: #545454;
+
+                                                
+}
+button{
+    
+        transition-property: all;
+        transition-duration: .5s;
+        transition-timing-function: cubic-bezier(.4,0,.2,1);
+
+}
+
+.descriptionthirdtext{
+   
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    margin:
+0px 0px 20px;
+font-family: 'Archivo', sans-serif;
+color: #545454;
+
+                                                
+}
+
+
+
+
+.line{
+    
+    height: 1.2px;
+    background-color: #000000;
+}
+.descriptionsecond{
+color:    #18181B;
+font-family: Archivo,sans-serif;
+line-height:
+26px;
+vertical-align:
+baseline;
+letter-spacing:
+0.32px;
+word-spacing:
+0px;
+margin:
+0px 0px 16px;
+padding:
+24px 0px 0px;
+
+font-weight:
+400;
+font-style:
+normal;
+font-variant:
+normal;
+font-kerning:
+auto;
+font-optical-sizing:
+auto;
+font-stretch:
+100%;
+font-variation-settings:
+normal;
+font-feature-settings:
+normal;
+text-transform:
+none;
+text-decoration:
+none solid rgb(24, 24, 27);
+text-align:
+start;
+text-indent:
+0px;
+}
+
+.textthirdpart{
+    color:#090914;
+    font-family:Archivo,sans-serif;
+    font-size: 16px;
+    line-height:24px;
+vertical-align:baseline;
+letter-spacing:0.32px;
+word-spacing:0px;
+margin:0px;
+padding:0px;
+font-weight:
+700;
+font-style:
+normal;
+font-variant:
+normal;
+font-kerning:
+auto;
+font-optical-sizing:
+auto;
+font-stretch:
+100%;
+font-variation-settings:
+normal;
+font-feature-settings:
+normal;
+text-transform:
+none;
+text-decoration:
+none solid rgb(9, 9, 20);
+text-align:
+start;
+    
+
+}
